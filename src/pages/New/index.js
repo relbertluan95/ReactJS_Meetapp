@@ -13,7 +13,7 @@ import DatePicker from './DatePicker';
 export default function New() {
   async function handleSubmit(data) {
     try {
-      console.tron.log(data);
+      // console.tron.log(data);
 
       const response = await api.post('meetapp', data);
 
@@ -24,7 +24,7 @@ export default function New() {
       history.push(`/details/${id}`);
     } catch (err) {
       toast.error('Erro ao criar meetapp');
-      console.tron.log(err);
+      // console.tron.log(err);
     }
   }
   return (
