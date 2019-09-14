@@ -23,7 +23,7 @@ export default function New() {
 
       history.push(`/details/${id}`);
     } catch (err) {
-      toast.error(err.response.data);
+      toast.error('Erro ao criar meetapp');
       console.tron.log(err);
     }
   }
