@@ -19,6 +19,7 @@ export const Container = styled.div`
     }
 
     img {
+      object-fit: cover;
       height: 220px;
       min-height: 250px;
       width: 100%;

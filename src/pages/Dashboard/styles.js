@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,9 +40,26 @@ export const Header = styled.header`
   }
 `;
 
+export const Controls = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    border: none;
+    background: none;
+  }
+
+  span {
+    margin: 0 20px;
+    font-size: 18px;
+    color: #eee;
+  }
+`;
+
 export const Meetapp = styled.li`
   background: rgba(0, 0, 0, 0.2);
-  height: 55px;
+  height: 42px;
   display: flex;
   color: #fff;
   border-radius: 4px;

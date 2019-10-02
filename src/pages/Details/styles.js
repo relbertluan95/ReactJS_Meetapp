@@ -52,6 +52,7 @@ export const Container = styled.div`
     flex-direction: column;
 
     img {
+      object-fit: cover;
       border-radius: 4px;
       height: 250px;
     }
